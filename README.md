@@ -1,15 +1,14 @@
-# Skarbek-Wazynski
+# Single Malt Design
 
-Please feel free to steal, read, hack this code. However, all the content despite being hosted publicly is subject to copyright of Tom Skarbek-Wazynki, so no pinching that!
+Please feel free to steal, read, hack this code. However, all the content despite being hosted publicly is subject to copyright of Single Malt Design Limited, so no pinching that!
 
-* Site: [skarbek-wazynski.co.uk](http://skarbek-wazynski.co.uk)
-* Twitter: [@wazynski](http://twitter.com/wazynski)
+* Site: [singlemaltdesign.co.uk](http://singlemaltdesign.co.uk)
 
 ## License
 
 #### The MIT License (MIT)
 
-Copyright (c) Tom Skarbek-Wazynski
+Copyright (c) Single Malt Design Limited
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

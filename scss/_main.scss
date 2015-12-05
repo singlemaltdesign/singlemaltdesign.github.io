@@ -1,0 +1,280 @@
+/*==========================================================================================
+Site Name: Thomas Skarbek-Wazynski
+Author: Tom Skarbek-Wazynski
+
+Stylesheet: Main
+
+==========================================================================================*/
+/* ==========================================================================
+	Variables
+	========================================================================== */
+$base: #FFFFFF;
+$background: #252525;
+$secondary: #878787;
+$gray: #CCCCCC;
+$border: $base;
+$selection: rgba(253, 125, 31, .6);
+$primary-font: 'canada-type-gibson', 'proxima-nova-alt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$secondary-font: 'canada-type-gibson', 'din-condensed-web', 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+html,
+button,
+input,
+select,
+textarea {
+  width: 100%;
+  height: 100%;
+
+  color: $base;
+}
+
+body {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 1.4;
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  color: $base;
+}
+
+::selection {
+  background: $selection;
+  text-shadow: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+
+  color: $base;
+}
+
+a:hover {
+  text-decoration: none;
+
+  color: $base;
+  background: $selection;
+}
+
+* {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+.chromeframe {
+  margin: .2em 0;
+  padding: .2em 0;
+
+  color: $base;
+  background: $gray;
+}
+
+/* ==========================================================================
+	Typography
+	========================================================================== */
+h2 {
+  font-size: .75em;
+
+  margin: 1.5em 0 .25em;
+
+  text-transform: uppercase;
+}
+
+p {
+  font-size: .75em;
+
+  margin-bottom: 1.333em;
+}
+
+.line {
+  display: block;
+
+  width: 20%;
+  height: 4px;
+
+  background: $border;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.container {
+  min-height: 100%;
+  padding: 1.5em;
+
+  border: 20px solid $border;
+  background: url('../img/bg.jpg') $background no-repeat center center;
+  background-size: cover;
+}
+
+.header {
+  padding: 4em 0;
+
+  img {
+    display: block;
+
+    width: 150px;
+    margin: 0 auto;
+  }
+}
+
+.main {
+  &::before {
+    display: block;
+
+    width: 200px;
+    height: 6px;
+    margin: 0 0 .5em;
+
+    content: '';
+
+    background: $base;
+  }
+
+  p {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.3;
+    // max-width: 85%;
+
+    letter-spacing: .015em;
+
+    color: $base;
+
+    span {
+      display: block;
+    }
+
+    &.testimonal {
+      color: rgba(255, 255, 255, .5);
+    }
+  }
+}
+
+footer {
+  padding: 5em 0 2em;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 0 6em;
+  }
+  .header {
+    padding: 8em 0;
+
+    img {
+      width: 200px;
+      margin: 0;
+    }
+  }
+
+  .main {
+    p {
+      font-size: 3em;
+
+      letter-spacing: .015em;
+    }
+  }
+}
+
+/* ==========================================================================
+	Desktop
+   ========================================================================== */
+
+@media only screen and (min-width: 959px) {
+  .main {
+    p {
+      max-width: 85%;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1070px) {
+}
+
+
+/* ==========================================================================
+	Retina
+   ========================================================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	       only screen and (min--moz-device-pixel-ratio: 1.5),
+	       only screen and (min-device-pixel-ratio: 1.5),
+	       only screen and (min-resolution: 144dpi) {
+}
+
+/* ==========================================================================
+   Print style
+   ========================================================================== */
+
+@media print {
+  * {
+    color: $base !important; /* Black prints faster: h5bp.com/s */
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  thead {
+    display: table-header-group; /* h5bp.com/t */
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: .5cm;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

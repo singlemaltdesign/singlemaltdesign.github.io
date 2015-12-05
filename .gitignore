@@ -1,0 +1,62 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+public/build/
+public/intermediate/
+public/publish
+public/scss/.sass-cache
+scss/.sass-cache/65c84109037732cfaca7b637908e41a6c3d773da/_bootstrap.scssc
+scss/.sass-cache/65c84109037732cfaca7b637908e41a6c3d773da/_main.scssc
+scss/.sass-cache/65c84109037732cfaca7b637908e41a6c3d773da/_normalize.scssc
+scss/.sass-cache/65c84109037732cfaca7b637908e41a6c3d773da/baraft.scssc
+scss/.sass-cache/65c84109037732cfaca7b637908e41a6c3d773da/lusu.scssc
+scss/.sass-cache/65c84109037732cfaca7b637908e41a6c3d773da/my-reptile-diet.scssc
+scss/.sass-cache/65c84109037732cfaca7b637908e41a6c3d773da/porters-trading-limited.scssc
+scss/.sass-cache/65c84109037732cfaca7b637908e41a6c3d773da/style.scssc
+scss/.sass-cache/65c84109037732cfaca7b637908e41a6c3d773da/the-commission.scssc
+scss/.sass-cache/ae9c59d73102fa4d7bdda1c723e6dd4b1f29c91b/_main.scssc
+scss/.sass-cache/ae9c59d73102fa4d7bdda1c723e6dd4b1f29c91b/_normalize.scssc
+scss/.sass-cache/ae9c59d73102fa4d7bdda1c723e6dd4b1f29c91b/baraft.scssc
+scss/.sass-cache/ae9c59d73102fa4d7bdda1c723e6dd4b1f29c91b/lusu.scssc
+scss/.sass-cache/ae9c59d73102fa4d7bdda1c723e6dd4b1f29c91b/my-reptile-diet.scssc
+scss/.sass-cache/ae9c59d73102fa4d7bdda1c723e6dd4b1f29c91b/porters-trading-limited.scssc
+scss/.sass-cache/ae9c59d73102fa4d7bdda1c723e6dd4b1f29c91b/style.scssc
+scss/.sass-cache/ae9c59d73102fa4d7bdda1c723e6dd4b1f29c91b/the-commission.scssc
+scss/.sass-cache/5dc8cd2bca36dd0b4a18bfae54ca4404a87a8cbf/_main.scssc
+scss/.sass-cache/5dc8cd2bca36dd0b4a18bfae54ca4404a87a8cbf/_normalize.scssc
+scss/.sass-cache/5dc8cd2bca36dd0b4a18bfae54ca4404a87a8cbf/style.scssc

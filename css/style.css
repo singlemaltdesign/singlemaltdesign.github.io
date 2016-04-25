@@ -332,8 +332,8 @@ p {
   .main p span {
     display: block; }
   .main p.testimonal {
-    color: rgba(255, 255, 255, 0.5); }
-	font-size: 1em;
+    color: rgba(255, 255, 255, 0.5); 
+	font-size: 1em; }
 
 footer {
   padding: 5em 0 2em; }
